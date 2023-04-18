@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>FORMS</h1>
+    <form action="./pract.html">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="name"><br><br>
+        <label for="mail">Email Address</label>
+        <input type="email" id="mail" name="email" placeholder="mail" required><br><br>
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="pass" placeholder="password"><br><br>
+        <!--Radio button-->
+        <label for="lang">Language</label><br><br>
+        <input type="radio" id="lang1" value="React" name="language">
+        <label for="lang1">React</label><br>
+        <input type="radio" id="lang2" value="Angular" name="language">
+        <label for="lang2">Angular</label><br>
+        <input type="radio" id="lang3" value="Vue" name="language">
+        <label for="lang3">Vue</label><br><br>
+        <!-- check box -->
+        <label for="course">Course</label><br><br>
+        <input type="checkbox" id="mern" value="MERN" name="mern">
+        <label for="mern">MERN</label><br>
+        <input type="checkbox" id="mean" value="MEAN" name="mean">
+        <label for="mean">MEAN</label><br>
+        <input type="checkbox" id="mevn" value="MEVN" name="mevn">
+        <label for="mevn">MEVN</label><br><br>
+        <!-- FIELDS-->
+        <select id="field:" name="field">Field:
+            <option value="Frontend">Front End </option>
+            <option value="Backend">Back End</option>
+            <option value="Full stack">Full Stack</option>
+        </select><br><br>
+        <label for="address"></label><br>
+        <textarea name="address" id="address" rows="4" cols="6"></textarea><br>
+        <!--mobile no.-->
+        <label for="Phone">Phone Number</label>
+        <input type="tel" name="Phone" id="Phone" pattern="[0-9]{10}" required>
+
+        <!--submit button-->
+        <button type="submit">Submit</button>
+    </form><br>
+
+    <a href="index2.html">click here</a>
+</body>
+
+</html>
